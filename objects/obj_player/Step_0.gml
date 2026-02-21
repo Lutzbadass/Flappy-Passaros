@@ -11,7 +11,9 @@ if(global.perdeu)
 {	
 	//Girando
 	image_angle += 3;
-}else //Checando se sai por cima ou por baixo, se eu não perdi ainda
+	
+}
+else //Checando se sai por cima ou por baixo, se eu não perdi ainda
 {
 	
 	if(y >= 352 or y <= -32)

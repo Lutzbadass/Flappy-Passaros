@@ -4,3 +4,5 @@
 instance_destroy(other);
 
 global.coletavel++;
+
+audio_play_sound(snd_coleta, 0, 0);

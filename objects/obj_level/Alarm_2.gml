@@ -4,10 +4,10 @@
 
 //Variavel temporária pra guardar o y de onde o coletavel
 //pode surgir
-var _y_coletavel = random_range(0, 128);
+var _y_coletavel = random_range(0, 320);
 
 //Criando coletaveis
-instance_create_layer(704, _y_coletavel, "ins_coletavel", obj_coletavel);
+instance_create_layer(672, _y_coletavel, "ins_coletavel", obj_coletavel);
 
 //Tocando alarme novamente após um tempo
-alarm[2] = room_speed * random_range(2, 4);
+alarm[2] = room_speed * random_range(3, 7);

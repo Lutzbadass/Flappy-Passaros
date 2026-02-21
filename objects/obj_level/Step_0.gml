@@ -17,6 +17,12 @@ if(global.perdeu == false)
 		{
 			//Ganhando level
 			global.level++
+			
+			//Aumentando velocidade background
+			layer_hspeed("bkg_arvores", -global.level);
+			layer_hspeed("bkg_reflexo", -global.level * 0.5);
+			layer_hspeed("bkg_reflexo_arvores", -global.level);
+			
 		}	
 	}
 
