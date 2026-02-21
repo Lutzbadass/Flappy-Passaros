@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Se perdi não bato asas
+if(global.perdeu) exit;
+
+//Fazendo com que eu só bata asa depois que terminar a animação 
 if(image_index < 1)
 {
 	//Fazendo subir ao apertar espaço

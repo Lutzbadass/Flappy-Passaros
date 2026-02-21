@@ -1,0 +1,12 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+//Variavel temporária pra guardar o y de onde o passaro
+//pode surgir
+var _y_passaro = random_range(0, 128);
+
+//Criando passaros
+instance_create_layer(704, _y_passaro, "ins_passaros", obj_passaro);
+
+//Tocando alarme novamente após um tempo
+alarm[1] = room_speed * random_range(2, 6);
