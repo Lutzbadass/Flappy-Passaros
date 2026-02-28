@@ -15,7 +15,9 @@ draw_set_font(fonte);
 //Definindo a cor do texto
 draw_set_colour(cor_texto);
 
-draw_text(x, y, Texto);
+//draw_text(x, y, Texto);
+//Desenhando um texto que muda de escala
+draw_text_transformed(x, y, Texto, txt_x, txt_y, 0)
 
 
 //Resetando meu draw set
