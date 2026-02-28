@@ -51,9 +51,10 @@
     {"id":{"name":"obj_passaro","path":"objects/obj_passaro/obj_passaro.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
-    {"id":{"name":"rm_room","path":"rooms/rm_room/rm_room.yy",},},
+    {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"scr_globais","path":"scripts/scr_globais/scr_globais.yy",},},
     {"id":{"name":"sq_inicio","path":"sequences/sq_inicio/sq_inicio.yy",},},
+    {"id":{"name":"sq_transicao","path":"sequences/sq_transicao/sq_transicao.yy",},},
     {"id":{"name":"snd_coleta","path":"sounds/snd_coleta/snd_coleta.yy",},},
     {"id":{"name":"snd_msc_fundo","path":"sounds/snd_msc_fundo/snd_msc_fundo.yy",},},
     {"id":{"name":"spr_agua","path":"sprites/spr_agua/spr_agua.yy",},},
@@ -77,8 +78,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"roomId":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
-    {"roomId":{"name":"rm_room","path":"rooms/rm_room/rm_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
