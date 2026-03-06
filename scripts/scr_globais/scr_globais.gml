@@ -17,6 +17,10 @@ global.destino = rm_jogo;
 
 global.transicao = false;
 
+global.itens_bloq = [false, true, true];
+
+global.spr_player = spr_arara;
+
 //Funções
 //Criando função para perder o jogo
 function perde_jogo()

@@ -18,6 +18,9 @@ if(global.perdeu == false)
 			//Ganhando level
 			global.level++
 			
+			//Tocando som de lvl up
+			audio_play_sound(snd_lvl_up, 0, 0);
+			
 			//Aumentando velocidade background
 			layer_hspeed("bkg_arvores", -global.level);
 			layer_hspeed("bkg_reflexo", -global.level * 0.5);
