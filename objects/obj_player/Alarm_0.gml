@@ -5,7 +5,7 @@
 global.perdeu = false;
 
 //Fazendo o jogo reiniciar
-game_restart();
+//game_restart();
 
 //Resetando pontos ao morrer
 global.pontos = 0;
