@@ -14,3 +14,11 @@ else
 }
 
 
+if(x < -64)
+{
+	//Falando quem vai ser destruído
+	//Se o evento destroy vai rodar
+	//Eu me destruo e NÃO executo o destroy
+	instance_destroy(id, false);
+}
+
