@@ -8,3 +8,6 @@ audio_stop_all();
 
 //Tocando msc de fundo
 audio_play_sound(snd_msc_fundo, 0, 0)
+
+//Checando se devo ter efeitos
+altera_efeitos();

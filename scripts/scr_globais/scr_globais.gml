@@ -21,6 +21,8 @@ global.itens_bloq = [false, true, true];
 
 global.spr_player = spr_arara;
 
+global.efeitos_ativos = true;
+
 //Funções
 //Criando função para perder o jogo
 function perde_jogo()
@@ -68,5 +70,17 @@ function muda_room() {
 function finaliza_transicao() {
 	
 	global.transicao = false;
+	
+}
+
+function altera_efeitos() {
+	
+	//Ativando/desativando efeitos
+	layer_enable_fx("Folhas", global.efeitos_ativos);
+	layer_enable_fx("efeitos", global.efeitos_ativos);
+	layer_enable_fx("ins_passaros", global.efeitos_ativos);
+	layer_enable_fx("ins_coletavel", global.efeitos_ativos);	
+	
+	
 	
 }

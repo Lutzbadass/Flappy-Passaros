@@ -8,3 +8,6 @@ if(global.transicao == true)
 
 //Parando msc ao ir pra room inicio
 audio_stop_all();
+
+//Checando se devo ter efeitos
+altera_efeitos();
